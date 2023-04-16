@@ -34,7 +34,7 @@ class OPML {
 
 	function load() {
 		echo "<a href=\"$path_to_opml/". basename($this->file) . "\">Download OPML File</a>";
-		echo yes;
+		echo no;
 	}
 }
 ?>
